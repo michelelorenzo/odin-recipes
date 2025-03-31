@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F7F2E4; /* Warm Cream background */
+    color: #3C2A21; /* Dark Brown text for readability */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles - Fixed */
+header {
+    background-color: #D84727; /* Deep Orange-Red */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #C56E33; /* Terracotta */
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 100;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #F7F2E4; /* Warm Cream */
+    display: block;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #F7F2E4;
+    color: #D84727;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #6B8E23;
+    color: #F7F2E4;
+    text-decoration: none;
+}
+
+/* Recipe Container */
+.recipe {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #FFFFFF; /* White background for contrast */
+    border: 1px solid #B2BEA9; /* Soft Sage */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    clear: both; /* Ensure it stays below the header */
+}
+
+/* Recipe Header */
+.recipe-header {
+    background-color: #F7F2E4; /* Warm Cream */
+    padding: 15px;
+    border-bottom: 1px solid #B2BEA9; /* Soft Sage */
+}
+
+.recipe-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #C56E33; /* Terracotta */
+}
+
+/* Recipe Content */
+.recipe-content {
+    padding: 20px;
+}
+
+.recipe-content h3 {
+    font-size: 1.5rem;
+    color: #6B8E23; /* Olive Green */
+    margin-bottom: 10px;
+}
+
+.recipe-content p {
+    margin: 10px 0;
+}
+
+/* Ingredients List */
+.ingredients {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.ingredients li {
+    margin: 5px 0;
+}
+
+/* Recipe List Styles */
+.recipe-list {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #B2BEA9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-list h2 {
+    color: #C56E33;
+    margin-bottom: 15px;
+}
+
+.recipe-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #F7F2E4;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.recipe-list li:hover {
+    transform: translateX(5px);
+}
+
+/* Steps List */
+ol li {
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+/* Main Spacing */
+main {
+    padding: 20px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3C2A21; /* Dark Brown */
+    color: #F7F2E4; /* Warm Cream */
+    font-size: 0.9rem;
+    border-top: 2px solid #C56E33; /* Terracotta */
+}
+
+/* Links */
+a {
+    color: #D84727; /* Deep Orange-Red */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6B8E23; /* Olive Green */
+    text-decoration: underline;
+}
